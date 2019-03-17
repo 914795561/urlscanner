@@ -1,5 +1,5 @@
 <?php
-namespace yang\UrlScanner\Url;
+namespace xuyang\UrlScanner\Url;
 
 use GuzzleHttp\Client;
 

@@ -1,5 +1,5 @@
 {
-    "name": "yang/urlscanner",
+    "name": "xuyang/urlscanner",
     "description": "Scan URLs FROM A CSV FILE AND REPORT INACCESSIBLE URLS",
     "keywords": ["url", "scanner", "csv"],
     "support": {
@@ -25,7 +25,7 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "yang\\UrlScanner":"src/"
+            "xuyang\\UrlScanner":"src/"
         }
     }
 }
