@@ -1,0 +1,31 @@
+{
+    "name": "yang/urlscanner",
+    "description": "Scan URLs FROM A CSV FILE AND REPORT INACCESSIBLE URLS",
+    "keywords": ["url", "scanner", "csv"],
+    "support": {
+        "email":"914795561@qq.com"
+    },
+    "suggest": {
+        "league/csv":"~6.0"
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "guzzlehttp/guzzle": "~5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xuyang",
+            "email": "914795561@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "yang\\UrlScanner":"src/"
+        }
+    }
+}
